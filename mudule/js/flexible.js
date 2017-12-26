@@ -11,4 +11,9 @@
     if (!doc.addEventListener) return;
     win.addEventListener(resizeEvt, recalc, false);
     doc.addEventListener('DOMContentLoaded', recalc, false);
+    
+    // 阻止默認行為
+    doc.addEventListener("touchmove",function(e){
+    	e.preventDefault();
+    });
 })(document, window);
