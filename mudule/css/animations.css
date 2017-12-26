@@ -1,0 +1,154 @@
+/* animation sets */
+
+/* move from / to  */
+@-webkit-keyframes rightflip {
+	0%,30% {
+		opacity: 0;
+		-webkit-transform: translate(10)
+	}
+
+	60% {
+		opacity: 1;
+		-webkit-transform: translate(0)
+	}
+
+	to {
+		opacity: 0;
+		-webkit-transform: translate(-8px)
+	}
+}
+
+@keyframes rightflip {
+	0%,30% {
+		opacity: 0;
+		transform: translate(10)
+	}
+
+	60% {
+		opacity: 1;
+		transform: translate(0)
+	}
+
+	to {
+		opacity: 0;
+		transform: translate(-8px)
+	}
+}
+
+#pageMove {
+	-webkit-animation: rightflip 1.5s infinite ease-in-out;
+     animation: rightflip 1.5s infinite ease-in-out; 
+}
+.pt-page-moveToLeft {
+	-webkit-animation: moveToLeft .4s linear both;
+	-moz-animation: moveToLeft .4s linear both;
+	animation: moveToLeft .4s linear both;
+
+
+}
+
+.pt-page-moveFromLeft {
+	-webkit-animation: moveFromLeft .4s linear both;
+	-moz-animation: moveFromLeft .4s linear both;
+	animation: moveFromLeft .4s linear both;
+}
+
+.pt-page-moveToRight {
+	-webkit-animation: moveToRight .4s linear both;
+	-moz-animation: moveToRight .4s linear both;
+	animation: moveToRight .4s linear both;
+}
+
+.pt-page-moveFromRight {
+	-webkit-animation: moveFromRight .4s linear both;
+	-moz-animation: moveFromRight .4s linear both;
+	animation: moveFromRight .4s linear both;
+}
+.pt-page-moveFromRemainRight {
+
+	-webkit-animation: moveFromRemainRight .4s linear both;
+	-moz-animation: moveFromRemainRight .4s linear both;
+	animation: moveFromRemainRight .4s linear both;
+}
+.pt-page-moveFromRemainRightImg {
+
+	-webkit-animation: moveFromRemainRightImg .4s linear both;
+	-moz-animation: moveFromRemainRightImg .4s linear both;
+	animation: moveFromRemainRightImg .4s linear both;
+}
+
+/* fade */
+
+.pt-page-fade {
+	-webkit-animation: fade .7s ease both;
+	-moz-animation: fade .7s ease both;
+	animation: fade .7s ease both;
+}
+
+
+/********************************* keyframes **************************************/
+
+/* move from / to  */
+
+@-webkit-keyframes moveToLeft {
+	to { -webkit-transform: translateX(-100%); }
+}
+@-moz-keyframes moveToLeft {
+	to { -moz-transform: translateX(-100%); }
+}
+@keyframes moveToLeft {
+	to { transform: translateX(-100%); }
+}
+
+@-webkit-keyframes moveFromLeft {
+	from { -webkit-transform: translateX(-100%); font-size: 40px; opacity: 0.4 }
+}
+@-moz-keyframes moveFromLeft {
+	from { -moz-transform: translateX(-100%);font-size: 40px; opacity: 0.4 }
+}
+@keyframes moveFromLeft {
+	from { transform: translateX(-100%); font-size: 40px; opacity: 0.4}
+}
+
+@-webkit-keyframes moveToRight { 
+	to { -webkit-transform: translateX(100%); }
+}
+@-moz-keyframes moveToRight { 
+	to { -moz-transform: translateX(100%); }
+}
+@keyframes moveToRight { 
+	to { transform: translateX(100%); }
+}
+
+@-webkit-keyframes moveFromRight {
+	from { font-size: 40px; opacity: 0.4;}
+}
+@-moz-keyframes moveFromRight {
+	from { font-size: 40px; opacity: 0.4;}
+}
+@keyframes moveFromRight {
+	from { font-size: 40px; opacity: 0.4;}
+}
+
+
+@-webkit-keyframes moveFromRemainRight {
+	to {-webkit-transform: translateX(0);}
+}
+@-moz-keyframes moveFromRemainRight {
+	to {-webkit-transform: translateX(0);}
+}
+@keyframes moveFromRemainRight {
+	to {-webkit-transform: translateX(0);}
+}
+
+@-webkit-keyframes moveFromRemainRightImg {
+	from {-webkit-transform: scale(1.5)}
+}
+@-moz-keyframes moveFromRemainRightImg {
+	from {-webkit-transform: scale(1.5)}
+}
+@keyframes moveFromRemainRightImg {
+	from {-webkit-transform: scale(1.5)}
+}
+
+

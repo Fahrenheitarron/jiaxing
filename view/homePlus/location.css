@@ -1,0 +1,37 @@
+
+#beiJing1 {
+	background: url(../../mudule/image/plus/beijing/renmin.jpg);
+	background-size: 100% 100%;
+	/*transform: translateX(0px); */
+	/*z-index: 1; */
+	/*visibility: visible; */
+	/*animation: moveFromRemainRight 0.4s linear both;*/
+}
+#beiJing2 {
+	background: url(../../mudule/image/plus/beijing/tiananmen.jpg);
+	background-size: 100% 100%;
+}
+#shangHai1 {
+	background: url(../../mudule/image/plus/shanghai/shanghai1.jpg);
+	background-size: 100% 100%;
+}
+#shangHai2 {
+	background: url(../../mudule/image/plus/shanghai/shanghai2.jpg);
+	background-size: 100% 100%;
+}
+#jinGangShan1 {
+	background: url(../../mudule/image/plus/jinggangshan/jinggangshan1.jpg);
+	background-size: 100% 100%;
+}
+#jinGangShan2 {
+	background: url(../../mudule/image/plus/jinggangshan/jinggangshan2.jpg);
+	background-size: 100% 100%;
+}
+#nanChang1 {
+	background: url(../../mudule/image/plus/nanchang/nanchang1.jpg);
+	background-size: 100% 100%;
+}
+#nanChang2 {
+	background: url(../../mudule/image/plus/nanchang/nanchang2.jpg);
+	background-size: 100% 100%;
+}
