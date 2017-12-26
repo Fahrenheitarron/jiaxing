@@ -40,26 +40,26 @@ a,button,input{-webkit-tap-highlight-color:rgba(255,0,0,0);}
 }
 #beiJing {
   	left: 2rem;
-	top: 12.7rem;
+	bottom: 18rem;
 	background: url(../../mudule/image/plus/beijingBtn.png) no-repeat;
 	background-size: 80% 80%;
 }
 #shangHai{
 	left: 2rem;
-	top: 20.7rem;
+	bottom: 12rem;
 	background: url(../../mudule/image/plus/shanghaiBtn.png) no-repeat;
 	background-size: 80% 80%;
 }
 #jinGangShan{
 	width: 7.6rem;
 	left: 10.5rem;
-	top: 16.7rem;
+	bottom: 15rem;
 	background: url(../../mudule/image/plus/jinggangshanBtn.png) no-repeat;
 	background-size: 80% 80%;
 }
 #nanChang{
 	left: 10.5rem;
-	top: 24.7rem;
+	bottom: 9rem;
 	background: url(../../mudule/image/plus/nanchangBtn.png) no-repeat;
 	background-size: 80% 80%;
 }

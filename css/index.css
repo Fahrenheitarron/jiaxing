@@ -35,31 +35,31 @@ a,button,input{-webkit-tap-highlight-color:rgba(255,0,0,0);}
 }
 #home1919{
 	left: .6rem;
-	top: 14.7rem;
+	bottom: 14.5rem;
 }
 
 #home1921{
 	left: 5.6rem;
-	top: 23.4rem;
+	bottom: 6rem;
 }
 
 #home2017{
 	left: 10.3rem;
-	top: 16.9rem;
+	bottom: 12rem;
 }
 #home2021{
 	right: 0;
-	top: 20.7rem;
+	bottom: 8.8rem;
 }
 #homeAR{
 	left: 1.6rem;
-	bottom: 2.5rem;
+	bottom: 2.3rem;
 }
 #homeJiax{
 	left: 9.2rem;
-	bottom: 2.5rem;
+	bottom: 2.3rem;
 }
 #homePlus{
 	left: 15.8rem;
-	bottom: 3rem;
+	bottom: 2.8rem;
 }

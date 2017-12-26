@@ -20,6 +20,9 @@
         display: block;
 
     }
+    .return{
+    	position: relative;
+    }
     #pageBack {
         position: absolute;
         font-size: 1rem;
@@ -33,6 +36,9 @@
         text-decoration: none;
         transform: translate(-50%);
         background-color: red;
+        position: absolute; 
+        bottom: 1rem; 
+        left: 9rem;
         opacity: 0.5;
     }
     </style>
@@ -41,7 +47,10 @@
     <script type="text/javascript" src="../../mudule/js/flexible.js"></script>
     <img src="../../mudule/image/year/1921/renda1.jpg">
     <img src="../../mudule/image/year/1921/renda2.jpg">
-    <img src="../../mudule/image/year/1921/renda3.jpg">
-    <a href="../../index.html" id="pageBack"></a>
+    <div class="return">
+    	<img src="../../mudule/image/year/1921/renda3.jpg">
+    	<a href="../../index.html" id="pageBack"></a>
+    </div>
+    
 </body>
 </html>

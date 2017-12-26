@@ -20,6 +20,9 @@
         display: block;
 
     }
+    .return{
+    	position: relative;
+    }
     #pageBack {
         position: absolute;
         font-size: 1rem;
@@ -33,6 +36,9 @@
         text-align: center;
         text-decoration: none;
         transform: translate(-50%);
+        position: absolute; 
+        bottom: 1rem; 
+        left: 9rem;
         opacity: 0.5;
     }
     </style>
@@ -40,7 +46,10 @@
 <body>
     <script type="text/javascript" src="../../mudule/js/flexible.js"></script>
     <img src="../../mudule/image/year/1919/wusi1.jpg">
-    <img src="../../mudule/image/year/1919/wusi2.jpg">
-    <a href="../../index.html" id="pageBack"></a>
+    <div class="return">
+    	<img src="../../mudule/image/year/1919/wusi2.jpg">
+    	<a href="../../index.html" id="pageBack"></a>
+    </div>
+    
 </body>
 </html>
