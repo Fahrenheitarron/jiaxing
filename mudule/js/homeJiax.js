@@ -46,6 +46,7 @@
 		});
 
 		viewsWrapper.addEventListener("touchmove",function(e){
+			e.preventDefault(); //阻止触摸事件的默认行为，即阻止滚屏
 			var screenW = document.documentElement.clientWidth;
 			var toLeft = e.touches[0].clientX - originX;
 			currIndex = $currPage.index();
