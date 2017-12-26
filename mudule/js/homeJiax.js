@@ -31,6 +31,7 @@
 		var $currPage;
 		var $nextPage;
 		var currIndex;
+		var onoff;
 
 		var aPage = $("#viewsWrapper .pt-page");
 		viewsWrapper.addEventListener("touchstart",function(e){
@@ -42,10 +43,13 @@
 			$(".pt-page").each( function() {
 				$(this).attr( 'class', $(this).data( 'originalClassList' ) );
 			});
+			$currPage.addClass("pt-page-current");
 			originX = e.touches[0].clientX;
+			onoff = false;
 		});
 
 		viewsWrapper.addEventListener("touchmove",function(e){
+			onoff = true;
 			e.preventDefault(); //阻止触摸事件的默认行为，即阻止滚屏
 			var screenW = document.documentElement.clientWidth;
 			var toLeft = e.touches[0].clientX - originX;
@@ -100,8 +104,7 @@
 		});
 		viewsWrapper.addEventListener("touchend",function(e){
 			//下一页
-			if(!$nextPage){
-
+			if(!onoff){
 				currIndex = $currPage.index();
 				var nextIndex = (currIndex + 1) % aPage.length;
 			    $nextPage = $(aPage[nextIndex]);
