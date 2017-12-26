@@ -1,22 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-    <title>嘉兴</title>
-    <!-- <EMBED src="mudule/image/boat.wav" autostart="true" loop="true" hidden="true">  -->
-    <link rel="stylesheet" type="text/css" href="css/index.css">
-</head>
-<body>
-<script type="text/javascript" src="./mudule/js/flexible.js"></script>
-<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
-    <div id="index">
-        <a href="view/home1919/home1919.html" id="home1919" class="btnYear"></a>
-        <a href="view/home1921/home1921.html" id="home1921" class="btnYear"></a>
-        <a href="view/home2017/home2017.html" id="home2017" class="btnYear"></a>
-        <a href="" id="home2021" class="btnYear"></a>
-        <a href="view/homeAR/homeAR.html" id="homeAR" class="btnShow"></a>
-        <a href="view/homeJiax/homeJiax.html" id="homeJiax" class="btnShow"></a>
-        <a href="view/homePlus/homePlus.html" id="homePlus" class="btnPlus"></a>
-    </div>
-</body>
-</html>
+<html>  
+    <head>  
+      <meta charset="utf-8" />  
+      <style type="text/css">
+         #music{
+            background-color:rgba(255,0,255,0);
+            /*opacity: 0;*/
+            height: 150px;
+            width: 100%;
+            border: 0;
+            z-index: 100;
+            position: fixed;
+         }
+         #index{
+            width: 100%;
+            height: 100%;
+            border: 0;
+            overflow: auto;
+         }
+      </style>
+    </head>  
+      
+    <!-- <frameset rows="*" framespacing="0" frameborder="no" border="0">  -->
+    
+    <iframe name="button" src="control.html" id="music"></iframe>  
+    <iframe name="vbody" src="frame.html" id="index"></iframe> 
+    <!-- <noframes>  
+    <body>您的浏览器无法处理框架！</body>  
+    </noframes>   -->
+    <!-- </frameset>   -->
+</html>  
