@@ -14,7 +14,7 @@ a,button,input{-webkit-tap-highlight-color:rgba(255,0,0,0);}
 }
 .btnYear {
     background: #000;
-    opacity: 0;
+    opacity: 0.5;
     width: 3.7rem;
     height: 3.5rem;
 	position: absolute;
@@ -24,14 +24,14 @@ a,button,input{-webkit-tap-highlight-color:rgba(255,0,0,0);}
     height: 2.4rem;
     position: absolute;
     background: #000;
-    opacity: 0;
+    opacity: 0.5;
 }
 .btnPlus{
 	width: 1.5rem;
     height: 1.5rem;
     position: absolute;
     background: #000;
-    opacity: 0;
+    opacity: 0.5;
 }
 #home1919{
 	left: .6rem;
