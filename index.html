@@ -4,14 +4,13 @@
       <style type="text/css">
          #music{
             background-color:rgba(255,0,255,0);
-            /*opacity: 0;*/
             height: 150px;
             width: 100%;
             border: 0;
             z-index: 100;
             position: fixed;
          }
-         #index{
+         .index{
             width: 100%;
             height: 100%;
             border: 0;
@@ -20,12 +19,15 @@
       </style>
     </head>  
       
-    <!-- <frameset rows="*" framespacing="0" frameborder="no" border="0">  -->
+    <!-- <frameset rows="10%,90%" framespacing="0" frameborder="no" border="0"> 
     
-    <iframe name="button" src="control.html" id="music"></iframe>  
-    <iframe name="vbody" src="frame.html" id="index"></iframe> 
-    <!-- <noframes>  
+    <frame name="button" src="control.html" id="music"> 
+    <frame name="vbody" src="frame.html" class="index">
+    <noframes>  
     <body>您的浏览器无法处理框架！</body>  
-    </noframes>   -->
-    <!-- </frameset>   -->
+    </noframes>  
+    </frameset>   -->
+
+    <iframe name="button" src="control.html" id="music"></iframe>  
+    <iframe name="vbody" src="frame.html" class="index"></iframe>
 </html>  
