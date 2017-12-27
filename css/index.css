@@ -3,6 +3,14 @@
 	padding: 0px;
 }
 a,button,input{-webkit-tap-highlight-color:rgba(255,0,0,0);}
+html{
+    height: 100%;
+    overflow: hidden;//overflow去掉滚动条
+}
+
+body{
+    height: 100%;
+}
 #index {
     background: url(../mudule/image/home.jpg);
     background-size: 100% 100%;

@@ -5,6 +5,7 @@
             var clientWidth = docEl.clientWidth;
             if (!clientWidth) return;
             if(clientWidth>750) clientWidth=750;//这里限制最大的宽度尺寸，从而实现PC端的两边留白等
+            console.log("clientWidth = " + clientWidth);
             docEl.style.fontSize = 20 * (clientWidth / 375) + 'px';
         };
 
