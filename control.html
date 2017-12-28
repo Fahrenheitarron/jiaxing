@@ -2,14 +2,14 @@
     <head>  
       <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">  
       <style type="text/css">
-        .bgm-btn {
+        #bgm-btn {
           position: fixed;
           right: 20px;
           top: 20px;
           z-index: 200;
           display: block;
       }
-      .bgm-btn.rotate {
+      #bgm-btn.rotate {
         -webkit-animation: rotating 1.2s linear infinite;
         animation: rotating 1.2s linear infinite;
       }
@@ -29,24 +29,49 @@
   
     <body>  
       <!-- <div class="bgm-btn rotate" onclick="music()"></div> -->
-      <img src="bgmBtn.svg" width="30px" height="30px" class="bgm-btn rotate" onclick="music()">
-      <audio id="myMusic" src="mudule/image/boat.wav" autoplay="true" loop="true"></audio> 
-      <script type="text/javascript" src="mudule/js/flexible.js"></script>
-      <script type="text/javascript" src="mudule/js/jquery-1.8.0.min.js"></script>
+      <img src="bgmBtn.svg" width="30px" height="30px" id="bgm-btn" class="rotate" onclick="music()">
+      <audio id="myMusic" src="./mudule/image/boat.wav" autoplay="true" loop="true"></audio> 
+      <script type="text/javascript" src="./mudule/js/flexible.js"></script>
+      <!-- <script type="text/javascript" src="./mudule/js/jquery-1.8.0.min.js"></script> -->
     <script type="text/javascript">
       var flag = true;
       function music() {  
         var music = document.getElementById('myMusic');
+        var btn = document.getElementById('bgm-btn');
         if (flag) {
-          music.pause(); 
-          $(".bgm-btn").removeClass('rotate');
+          music.pause();
+          removeClass(btn,'rotate');
           flag = false;
         } else{
-          music.play(); 
-          $(".bgm-btn").addClass('rotate');
+          music.play();
+          addClass(btn,'rotate');
           flag = true;
         } 
-      }  
+      }
+      function addClass(obj, cls){
+          var obj_class = obj.className,//获取 class 内容.
+              blank = (obj_class != '') ? ' ' : '';//判断获取到的 class 是否为空, 如果不为空在前面加个'空格'.
+          added = obj_class + blank + cls;//组合原来的 class 和需要添加的 class.
+          obj.className = added;//替换原来的 class.
+      }
+      function removeClass(obj, cls){
+          var obj_class = ' '+obj.className+' ';//获取 class 内容, 并在首尾各加一个空格. ex) 'abc    bcd' -> ' abc    bcd '
+          obj_class = obj_class.replace(/(\s+)/gi, ' '),//将多余的空字符替换成一个空格. ex) ' abc    bcd ' -> ' abc bcd '
+              removed = obj_class.replace(' '+cls+' ', ' ');//在原来的 class 替换掉首尾加了空格的 class. ex) ' abc bcd ' -> 'bcd '
+          removed = removed.replace(/(^\s+)|(\s+$)/g, '');//去掉首尾空格. ex) 'bcd ' -> 'bcd'
+          obj.className = removed;//替换原来的 class.
+      }
+      function hasClass(obj, cls){
+          var obj_class = obj.className,//获取 class 内容.
+              obj_class_lst = obj_class.split(/\s+/);//通过split空字符将cls转换成数组.
+          x = 0;
+          for(x in obj_class_lst) {
+              if(obj_class_lst[x] == cls) {//循环数组, 判断是否包含cls
+                  return true;
+              }
+          }
+          return false;
+      }
     </script> 
     </body>  
 </html>  

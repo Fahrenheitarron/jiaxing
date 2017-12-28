@@ -1,29 +1,48 @@
 
 #ptPage1 {
-	background: url(../../mudule/image/jiax/jiax1.jpg);
+	background: url('../../mudule/image/jiax/jiax1.jpg');
 	background-size: 100% 100%;
 	/*transform: translateX(0px); */
 	/*z-index: 1; */
 	/*visibility: visible; */
 	/*animation: moveFromRemainRight 0.4s linear both;*/
 }
+#ptPage1 img {
+	height: 30%;
+}
+
 #ptPage2 {
-	background: url(../../mudule/image/jiax/jiax2.jpg);
+	background: url('../../mudule/image/jiax/jiax2.jpg');
 	background-size: 100% 100%;
+}
+#ptPage2 img {
+	height: 30%;
 }
 #ptPage3 {
-	background: url(../../mudule/image/jiax/jiax3.jpg);
+	background: url('../../mudule/image/jiax/jiax3.jpg');
 	background-size: 100% 100%;
+}
+#ptPage3 img {
+	height: 27%;
 }
 #ptPage4 {
-	background: url(../../mudule/image/jiax/jiax4.jpg);
+	background: url('../../mudule/image/jiax/jiax4.jpg');
 	background-size: 100% 100%;
+}
+#ptPage4 img {
+	height: 33%;
 }
 #ptPage5 {
-	background: url(../../mudule/image/jiax/jiax5.jpg);
+	background: url('../../mudule/image/jiax/jiax5.jpg');
 	background-size: 100% 100%;
 }
+#ptPage5 img {
+	height: 40%;
+}
 #ptPage6 {
-	background: url(../../mudule/image/jiax/jiax6.jpg);
+	background: url('../../mudule/image/jiax/jiax6.jpg');
 	background-size: 100% 100%;
+}
+#ptPage6 img {
+	height: 27%;
 }
