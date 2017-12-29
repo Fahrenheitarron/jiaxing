@@ -1,8 +1,7 @@
 <html>  
     <head>  
       <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-      <meta name="sharecontent" data-msg-title="嘉兴展示" data-msg-content="嘉兴简介"  data-line-title="嘉兴展示" />  
-      <title>嘉兴</title>
+      <title>“智境”嘉兴南湖 重走一大路</title>
       <style type="text/css">
         *{
           margin: 0px;
@@ -32,40 +31,7 @@
             overflow: auto;
          }
       </style>
-      <script type="text/javascript"> 
-        var tit = "1111" //标题 
-        var con = "1111" //简介 
-        document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() { 
-        // 发送给好友 
-        WeixinJSBridge.on('menu:share:appmessage', function (argv) { 
-        WeixinJSBridge.invoke('sendAppMessage', { 
-        "appid": "123", 
-        "img_url": img, 
-        "img_width": "160", 
-        "img_height": "160", 
-        "link": link, 
-        "desc": con, 
-        "title": tit 
-        }, function (res) { 
-        _report('send_msg', res.err_msg); 
-        }) 
-        }); 
-
-        // 分享到朋友圈 
-        WeixinJSBridge.on('menu:share:timeline', function (argv) { 
-        WeixinJSBridge.invoke('shareTimeline', { 
-        "img_url": img, 
-        "img_width": "160", 
-        "img_height": "160", 
-        "link": link, 
-        "desc": con, 
-        "title": tit 
-        }, function (res) { 
-        _report('timeline', res.err_msg); 
-        }); 
-        }); 
-        }, false) 
-    </script> 
+      <script type="text/javascript" src="mudule/js/flexible.js"></script>
     </head>  
       
     <!-- <frameset rows="10%,90%" framespacing="0" frameborder="no" border="0"> 
@@ -76,10 +42,7 @@
     <body>您的浏览器无法处理框架！</body>  
     </noframes>  
     </frameset>   -->
-<body>
-  <img src="http://www.timsion.com/images/logo.jpg" width="0" height="0" />
-  <iframe name="button" src="./control.html" id="music"></iframe>  
+
+    <iframe name="button" src="./control.html" id="music"></iframe>  
     <iframe name="vbody" src="./frame.html" class="index"></iframe>
-</body>
-    
 </html>  
