@@ -37,17 +37,21 @@ a,button,input{-webkit-tap-highlight-color:rgba(255,0,0,0);}
 }
 .image{
 	width: 80%;
-	height: 30%;
+	height: 32%;
 	position: absolute;
 	top: 57%;
 	left: 0;
 }
 #index .nanHu{
-	height: 55%;
+	height: 57%;
 }
 #index .yida{
-	height: 59%;
+	height: 61%;
 }
 #index .jinian{
-	height: 57%;
+	height: 60%;
+}
+
+#index .yidaImg{
+	height: 30%;
 }
