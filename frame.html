@@ -8,6 +8,9 @@
 </head>
 <body>
     <div id="index">
+        <img src="./mudule/image/newIndex/jingShen.png" class="all" id="jingShen">
+        <img src="./mudule/image/newIndex/all.png" class="all" id="allImg">
+        <img src="./mudule/image/newIndex/btn.png" class="all" id="btn">
         <a href="./view/homeRedBoat/shouChuang.html" id="home1919" class="btnYear"></a>
         <a href="./view/homeRedBoat/fenDou.html" id="home1921" class="btnYear"></a>
         <a href="./view/home2017/home2017.html" id="home2017" class="btnYear"></a>
@@ -17,5 +20,24 @@
         <a href="./view/homePlus/homePlus.html" id="homePlus" class="btnPlus"></a>
     </div>
     <script type="text/javascript" src="./mudule/js/flexible.js"></script>
+    <script type="text/javascript" src="mudule/js/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript">
+        $("#jingShen").css({
+            display:"block",
+            animation: "imgScale 1s linear both",
+        });
+        setTimeout(function(){
+            $("#allImg").css({
+                display:"block",
+                animation: "imgScale 1s linear both",
+            });
+        },900);
+        setTimeout(function(){
+            $("#btn").css({
+                display:"block",
+                animation: "imgScale 1s linear both",
+            });
+        },1900);
+    </script>
 </body>
 </html>
