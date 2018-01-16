@@ -21,8 +21,13 @@ img{
     right: 0px;
 }
 .redBoat{
-	width: 12.5rem;
+	width: 13rem;
 	margin: 10% auto;
+    height: 70%;
+}
+.redBoat1{
+    width: 14rem;
+    margin: 10% auto;
     height: 79%;
 }
 #pageNext {
