@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<title>“智境”嘉兴南湖 重走一大路</title>
+	<link rel="stylesheet" type="text/css" href="mudule/css/animations.css">
+	<style type="text/css">
+		#index {
+		    background: url(mudule/image/introduce/introduce.jpg);
+		    background-size: 100% 100%;
+		    position: fixed;
+		    top:0px;
+		    left: 0px;
+		    bottom: 0px;
+		    right: 0px;
+		}
+		img {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			display: none;
+		}
+		/*#tittle{
+			width: 19rem;
+			height: 31rem;
+			position: absolute;
+			top:1rem;
+			right: -0.45rem;
+			display: none;
+		}
+		#date{
+			width: 19rem;
+			height: 31rem;
+			position: absolute;
+			top:1rem;
+			right: -0.45rem;
+			display: none;
+		}
+		#first{
+			width: 19rem;
+			height: 31rem;
+			position: absolute;
+			top:1rem;
+			right: 0rem;
+			display: none;
+		}
+		#second{
+			width: 19rem;
+			height: 31rem;
+			position: absolute;
+			top:1rem;
+			right: 0rem;
+			display: none;
+		}
+		#third{
+			width: 19rem;
+			height: 31rem;
+			position: absolute;
+			top:1rem;
+			right: 0rem;
+			display: none;
+		}
+		#fourth{
+			width: 19rem;
+			height: 31rem;
+			position: absolute;
+			top:1rem;
+			right: 0rem;
+			display: none;
+		}*/
+	</style>
+</head>
+<body>
+	<div id="index">
+		<img id="tittle" src="mudule/image/introduce/tittle.png">
+		<img id="date" src="mudule/image/introduce/date.png">
+		<img id="first" src="mudule/image/introduce/1.png">
+		<img id="second" src="mudule/image/introduce/2.png">
+		<img id="third" src="mudule/image/introduce/3.png">
+		<img id="fourth" src="mudule/image/introduce/4.png">
+	</div>
+
+	<script type="text/javascript" src="mudule/js/flexible.js"></script>
+	<script type="text/javascript" src="mudule/js/jquery-1.8.0.min.js"></script>
+	<script type="text/javascript">
+		
+		$("#tittle").css({
+			display:"block",
+			animation: "imgScale 1s linear both",
+		});
+		setTimeout(function(){
+			$("#date").css({
+				display:"block",
+				animation: "imgScale 1s linear both",
+			});
+		},900);
+		setTimeout(function(){
+			$("#first").css({
+				display:"block",
+				animation: "imgScale 1s linear both",
+			});
+		},1900);
+		setTimeout(function(){
+			$("#second").css({
+				display:"block",
+				animation: "imgScale 1s linear both",
+			});
+		},2900);
+		setTimeout(function(){
+			$("#third").css({
+				display:"block",
+				animation: "imgScale 1s linear both",
+			});
+		},3900);
+		setTimeout(function(){
+			$("#fourth").css({
+				display:"block",
+				animation: "imgScale 1s linear both",
+			});
+		},4900);
+	</script>
+</body>
+</html>

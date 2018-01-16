@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a,button,input{-webkit-tap-highlight-color:rgba(255,0,0,0);}
+img{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-size: 0px;
+    display: block;
+}
+
+#index {
+    background-size: 100% 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+.shouNext1{
+    background: url(../../mudule/image/newImg/shouchuang/shouchuang2-3.jpg);
+}
+.shouNext2{
+    background: url(../../mudule/image/newImg/shouchuang/shouchuang3-3.jpg);
+}
+.fenNext1{
+    background: url(../../mudule/image/newImg/fendou/fendou2-3.jpg);
+}
+.fenNext2{
+    background: url(../../mudule/image/newImg/fendou/fendou3-3.jpg);
+}
+.fenNext3{
+    background: url(../../mudule/image/plus/bg.jpg);
+}
+.fengNext1{
+    background: url(../../mudule/image/newImg/fengxian/fengxian2-3.jpg);
+}
+.fengNext2{
+    background: url(../../mudule/image/newImg/fengxian/fengxian3-3.jpg);
+}
+.fengNext3{
+    background: url(../../mudule/image/newImg/fengxian/fengxian4-3.jpg);
+}
+.redBoat{
+	width: 16rem;
+	margin: 10% auto;
+}
+#pageBack {
+    font-size: 1rem;
+    color: #fff;
+    z-index: 2;
+    left: 50%;
+    width: 8.5rem;
+    height: 1.8rem;
+    text-align: center;
+    text-decoration: none;
+    transform: translate(-50%);
+    position: absolute; 
+    bottom: 1.8rem;
+    background: url(../../mudule/image/return.png) no-repeat;
+    background-size: 70% 70%;
+    background-position: 20px 5px;
+}
+#pageNext {
+    font-size: 1rem;
+    color: #fff;
+    z-index: 2;
+    left: 50%;
+    width: 8.5rem;
+    height: 1.8rem;
+    text-align: center;
+    text-decoration: none;
+    transform: translate(-50%);
+    position: absolute; 
+    bottom: 1.8rem;
+    background: url(../../mudule/image/newImg/next.png) no-repeat;
+    background-size: 70% 70%;
+    background-position: 20px 5px;
+}

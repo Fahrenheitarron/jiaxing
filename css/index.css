@@ -22,9 +22,9 @@ body{
 }
 .btnYear {
     background: #000;
-    opacity: 0;
+    opacity: 0.5;
     width: 3.7rem;
-    height: 3.5rem;
+    height: 4.5rem;
 	position: absolute;
 }
 .btnShow{
@@ -32,32 +32,32 @@ body{
     height: 2.4rem;
     position: absolute;
     background: #000;
-    opacity: 0;
+    opacity: 0.5;
 }
 .btnPlus{
 	width: 1.5rem;
     height: 1.5rem;
     position: absolute;
     background: #000;
-    opacity: 0;
+    opacity: 0.5;
 }
 #home1919{
-	left: .6rem;
-	bottom: 13rem;
+	left: 4.3rem;
+    bottom: 26rem;
 }
 
 #home1921{
-	left: 5.6rem;
-	bottom: 5.5rem;
+	left: 1.6rem;
+    bottom: 21.5rem;
 }
 
 #home2017{
-	left: 10.3rem;
-	bottom: 11.5rem;
+	left: 13.3rem;
+    bottom: 22.5rem;
 }
 #home2021{
-	right: 0;
-	bottom: 8rem;
+	left: 11rem;
+    bottom: 17rem;
 }
 #homeAR{
 	left: 1.6rem;
