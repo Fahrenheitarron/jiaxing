@@ -22,7 +22,7 @@ body{
 }
 .btnYear {
     background: #000;
-    opacity: 0.5;
+    opacity: 0;
     width: 3.7rem;
     height: 4.5rem;
 	position: absolute;
@@ -32,14 +32,14 @@ body{
     height: 2.4rem;
     position: absolute;
     background: #000;
-    opacity: 0.5;
+    opacity: 0;
 }
 .btnPlus{
 	width: 1.5rem;
     height: 1.5rem;
     position: absolute;
     background: #000;
-    opacity: 0.5;
+    opacity: 0;
 }
 #home1919{
 	left: 4.3rem;
