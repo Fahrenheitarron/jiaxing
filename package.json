@@ -1,6 +1,0 @@
-package.json
-{
-    "scripts":{
-    "start": "http-server -a 192.168.191.1 -p 8080"
-}
-}
