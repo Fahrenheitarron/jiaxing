@@ -5,11 +5,15 @@
     <title>“智境”嘉兴南湖 重走一大路</title>
     <!-- <EMBED src="mudule/image/boat.wav" autostart="true" loop="true" hidden="true">  -->
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    
 </head>
 <body>
     <div id="index">
         <img src="./mudule/image/newIndex/jingShen.png" class="all" id="jingShen">
-        <img src="./mudule/image/newIndex/all.png" class="all" id="allImg">
+        <img src="./mudule/image/newIndex/fendou.png" class="all" id="fendou">
+        <img src="./mudule/image/newIndex/chuxin.png" class="all" id="chuxin">
+        <img src="./mudule/image/newIndex/fengxian.png" class="all" id="fengxian">
+        <img src="./mudule/image/newIndex/shouchuang.png" class="all" id="shouchuang">
         <img src="./mudule/image/newIndex/btn.png" class="all" id="btn">
         <a href="./view/homeRedBoat/shouChuang.html" id="home1919" class="btnYear"></a>
         <a href="./view/homeRedBoat/fenDou.html" id="home1921" class="btnYear"></a>
@@ -26,11 +30,30 @@
             display:"block"
         });
         setTimeout(function(){
-            $("#allImg").css({
+            $("#shouchuang").css({
                 display:"block",
-                animation: "imgScale 1s linear both",
             });
-        },900);
+            $("#shouchuang").addClass("word");
+        },500);
+        setTimeout(function(){
+            $("#fendou").css({
+                display:"block",
+            });
+            $("#fendou").addClass("word");
+        },1000);
+        setTimeout(function(){
+            $("#chuxin").css({
+                display:"block",
+            });
+            $("#chuxin").addClass("word");
+        },1500);
+        setTimeout(function(){
+            $("#fengxian").css({
+                display:"block",
+            });
+            $("#fengxian").addClass("word");
+        },2000);
+
         setTimeout(function(){
             $("#btn").css({
                 display:"block"

@@ -78,9 +78,11 @@ body{
     height: 100%;
     position: absolute;
     display: none;
+    top:0rem;
+    left:0rem;
 }
 
-@-webkit-keyframes imgScale {
+/*@-webkit-keyframes imgScale {
     from {-webkit-transform: scale(0.8);opacity: 0}
 }
 @-moz-keyframes imgScale {
@@ -88,4 +90,51 @@ body{
 }
 @keyframes imgScale {
     from {-webkit-transform: scale(0.8);opacity: 0}
+}*/
+
+@-webkit-keyframes rightflip {
+    0%{
+        opacity: 0.2;
+        -webkit-transform: scale(0.9)
+    }
+    30%{
+        opacity: 0.6;
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: scale(1)
+    }
+    80%{
+        opacity: 0.6;
+    }
+    100%{
+        opacity: 0.2;
+        -webkit-transform: scale(0.9)
+    }
+}
+
+@keyframes rightflip {
+    0%{
+        opacity: 0.2;
+        -webkit-transform: scale(0.9)
+    }
+    30%{
+        opacity: 0.6;
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: scale(1)
+    }
+    80%{
+        opacity: 0.6;
+    }
+    100%{
+        opacity: 0.2;
+        -webkit-transform: scale(0.9)
+    }
+} 
+
+.word {
+    -webkit-animation: rightflip 2.5s infinite ease-in-out;
+     animation: rightflip 2.5s infinite ease-in-out; 
 }

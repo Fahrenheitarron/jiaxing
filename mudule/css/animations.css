@@ -39,6 +39,10 @@
 	-webkit-animation: rightflip 1.5s infinite ease-in-out;
      animation: rightflip 1.5s infinite ease-in-out; 
 }
+.word {
+	-webkit-animation: rightflip 1.5s infinite ease-in-out;
+     animation: rightflip 1.5s infinite ease-in-out; 
+}
 .pt-page-moveToLeft {
 	-webkit-animation: moveToLeft .4s linear both;
 	-moz-animation: moveToLeft .4s linear both;
